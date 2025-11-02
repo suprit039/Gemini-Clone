@@ -1,3 +1,4 @@
+
 .sidebar{
     min-height:100vh;
     display:inline-flex;
@@ -14,4 +15,51 @@
     display:block;
     margin-left:10px;
     cursor:pointer;
+}
+.sidebar .new-chat{
+    margin-top:40px;
+    display:inline-flex;
+    gap:10px;
+    align-items: center;
+    font-size:14px;
+    background-color: #e6eaf1;
+    border-radius:50px;
+    padding: 7px 15px;
+    cursor:pointer;
+    color:grey;
+}
+.sidebar .recent{
+    display:flex;
+    flex-direction:column;
+}
+.sidebar .recent-title{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.sidebar .recent-entry{
+    display:flex;
+    gap: 7px;
+    padding: 10px;
+    padding-right: 34px;
+    border-radius:50px;
+    color:#282828;
+    cursor:pointer;
+}
+.sidebar .recent-entry:hover{
+    display:flex;
+    gap: 7px;
+    padding: 10px;
+    padding-right: 34px;
+    border-radius:50px;
+    color:#282828;
+    cursor:pointer;
+    background:#e2e6eb;
+}
+.sidebar .bottom{
+    display:flex;
+    flex-direction:column;
+}
+.sidebar .bottom-item{
+    cursor:pointer;
+    padding-right:15px;
 }
