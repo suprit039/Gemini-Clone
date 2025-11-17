@@ -63,6 +63,7 @@
 }
 .main-bottom{
     position:absolute;
+    /* position:fixed; */
     bottom:0;
     width:100%;
     max-width: 900px;
@@ -166,5 +167,8 @@
     }
     .search-box div{
         gap:5px;
+    }
+    .main-bottom{
+        position:fixed;
     }
 }

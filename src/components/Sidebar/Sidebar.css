@@ -5,7 +5,14 @@
     flex-direction:column;
     justify-content:space-between;
     background-color: #f0f4f9;
-    padding:25px 15px;
+    padding:25px 15px;   
+    transition: width 0.25s ease;
+    width:80px;
+    overflow :hidden;
+    
+}
+.sidebar.expanded{
+    width:170px;
 }
 .sidebar img{
     width:20px;
@@ -15,6 +22,7 @@
     display:block;
     margin-left:10px;
     cursor:pointer;
+    /* transition: width 0.25s ease; */
 }
 .sidebar .new-chat{
     margin-top:40px;
